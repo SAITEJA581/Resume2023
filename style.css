@@ -206,6 +206,15 @@ body {
         grid-template-columns: repeat(3,1fr);
     }
 }
+@media (max-width: 768px) {
+    .line ul li {
+        padding-left: 20px;
+    }
+    
+    .line ul li:before {
+        left: -14px;
+    }
+}
 @media (max-width: 600px) {
     .intrest ul{
         grid-template-columns: repeat(1,1fr);
